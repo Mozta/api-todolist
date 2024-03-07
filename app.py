@@ -27,7 +27,7 @@ BASE_URL = '/api/v1/'
 
 @app.route('/')
 def home():
-    return abort(400, erro r='Missing body in request')
+    return '<h1>Welcome to my first api deploy</h1>'
 
 
 @app.route(BASE_URL + 'tasks', methods=['POST'])
